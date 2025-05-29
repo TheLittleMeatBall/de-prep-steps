@@ -11,6 +11,7 @@ from test_api.checks import run_test, skip_test, format_err_msg
 def confused_greeting(names):
 
     confused_shouts = []
+    print()
     if names:
         for name in names:
             confused_shouts.append(name + "?!")
