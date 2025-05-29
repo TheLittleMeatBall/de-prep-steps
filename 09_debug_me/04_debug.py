@@ -11,10 +11,10 @@ from test_api.checks import run_test, skip_test, format_err_msg
 
 def shopping_trip(money, item):
     items_and_prices = {
-        "Danika's tears": 10,
+        "Danika's tears": 100,
         "Alex's soul": 3,
         "Simon's beard": 67,
-        "Kyle's house": 49,
+        "Kyle's house": 490,
         "Chon's glasses": 23
     }
     if money <= items_and_prices[item]:
